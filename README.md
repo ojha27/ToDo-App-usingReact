@@ -1,3 +1,4 @@
+<img width="2940" height="1912" alt="image" src="https://github.com/user-attachments/assets/80f442e6-e016-4d75-9b26-58d2f94c5e28" />
 
 # Todo App (React.js)
 A fully functional and responsive Todo Application built using React.js. This project is designed to practice and demonstrate core frontend concepts like state management, component reusability, form handling, CRUD operations, and local storage integration.

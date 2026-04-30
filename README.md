@@ -1,16 +1,48 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Todo App (React.js)
+A fully functional and responsive Todo Application built using React.js. This project is designed to practice and demonstrate core frontend concepts like state management, component reusability, form handling, CRUD operations, and local storage integration.
 
-Currently, two official plugins are available:
+##  Live Demo
+pending link
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+✔ Add new todos  
+✔ Edit existing todos  
+✔ Delete todos  
+✔ Change task status (Todo → In Progress → Done)  
+✔ Priority management (Low / Medium / High)  
+✔ Search/filter todos  
+✔ Data persistence using Local Storage  
+✔ Responsive UI design  
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+##  Tech Stack
 
-## Expanding the ESLint configuration
+- React.js  
+-  JavaScript (ES6+)  
+- Tailwind CSS  
+- React Hook Form  
+- Local Storage API  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Project Structure
+
+src/
+├── components/
+│   └── TodoCard.jsx
+├── forms/
+│   ├── LoginForm.jsx
+│   ├── SignupForm.jsx
+│   └── TodoForm.jsx
+├── pages/
+│   ├── Dashboard.jsx
+│   ├── Login.jsx
+│   └── Signup.jsx
+├── validation/
+│   ├── signupSchema.js
+│   └── todoSchema.js
+├── App.jsx
+├── main.jsx
+├── index.css

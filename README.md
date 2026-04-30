@@ -4,7 +4,9 @@
 A fully functional and responsive Todo Application built using React.js. This project is designed to practice and demonstrate core frontend concepts like state management, component reusability, form handling, CRUD operations, and local storage integration.
 
 ##  Live Demo
-(https://to-do-app-using-react-taupe.vercel.app/)## Features
+https://to-do-app-using-react-taupe.vercel.app
+
+##Features
 
 ✔ Add new todos  
 ✔ Edit existing todos  
